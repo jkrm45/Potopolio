@@ -21,8 +21,8 @@ public class IngameBTM : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //print(StageNum);
-        //print(PlayerPrefs.GetInt("Stage"));
+        print(StageNum);
+        print(PlayerPrefs.GetInt("Stage"));
         time = time - Time.deltaTime;
         Stagetime.GetComponent<UIProgressBar>().value = time / stageplaytime;
         if (time <= 0)
