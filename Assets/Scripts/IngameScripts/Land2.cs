@@ -7,7 +7,8 @@ public class Land2 : MonoBehaviour
     public GameObject trapp3;
    public GameObject trapp4;
    public GameObject trapp5;
-   
+    
+
 
 
     // Use this for initialization
@@ -31,15 +32,15 @@ int Randomtree()
     {
         ran = 0;
     }
-    if (ran >= 87&& ran < 93)
+    if (ran >= 99&& ran < 93)
     {
         ran = 1;
     }
-    if (ran >= 93 && ran < 97)
+    if (ran >= 93 && ran <98)
     {
         ran = 2;
     }
-    if (ran >= 97 && ran < 100)
+    if (ran >= 98 && ran <100)
      {
             ran = 3;
      }
@@ -71,9 +72,10 @@ void Randomemake()
 
                 trapp5obj.transform.parent = transform;
                 break;
-           
-          
-             
+         
+
+
+
 
             default:
             break;

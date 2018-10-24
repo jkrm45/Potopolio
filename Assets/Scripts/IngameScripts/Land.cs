@@ -5,9 +5,10 @@ using UnityEngine;
 public class Land : MonoBehaviour {
     public GameObject trapp1;
     public GameObject trapp2;
+ 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         Randomemake();
         //GameObject trapp1obj = Instantiate(trapp1, transform.position, transform.rotation);
 
@@ -33,6 +34,7 @@ public class Land : MonoBehaviour {
         {
             ran = 2;
         }
+       
         return ran;
     }
     void Randomemake()
@@ -53,8 +55,9 @@ public class Land : MonoBehaviour {
                 GameObject trapp1obj = Instantiate(trapp2, transform.position + new Vector3(-0.313f, 0.195f, -0.276f), transform.rotation);
 
                 trapp1obj.transform.parent = transform;
-                
                 break;
+          
+                
                     
             default:
                 break;
