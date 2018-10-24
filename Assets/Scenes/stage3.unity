@@ -263,6 +263,46 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onPress.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onPress.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onRelease.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onRelease.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onHoverOut.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onHoverOut.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onHoverOver.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onHoverOver.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4803803569817860, guid: 7c88efac5d286934a96b7a38c1598476, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -342,6 +382,66 @@ Prefab:
     - target: {fileID: 1621483215178344, guid: 7c88efac5d286934a96b7a38c1598476, type: 2}
       propertyPath: m_Name
       value: score
+      objectReference: {fileID: 0}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onHoverOver.Array.data[0].mMethodName
+      value: Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onHoverOut.Array.data[0].mMethodName
+      value: Right2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onHoverOver.Array.data[0].mMethodName
+      value: Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onHoverOut.Array.data[0].mMethodName
+      value: Left2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onPress.Array.data[0].mTarget
+      value: 
+      objectReference: {fileID: 126799749}
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onRelease.Array.data[0].mTarget
+      value: 
+      objectReference: {fileID: 126799749}
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onPress.Array.data[0].mMethodName
+      value: Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 114456785202301824, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onRelease.Array.data[0].mMethodName
+      value: Left2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onPress.Array.data[0].mTarget
+      value: 
+      objectReference: {fileID: 126799749}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onRelease.Array.data[0].mTarget
+      value: 
+      objectReference: {fileID: 126799749}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onPress.Array.data[0].mMethodName
+      value: Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 114113873945325670, guid: 7c88efac5d286934a96b7a38c1598476,
+        type: 2}
+      propertyPath: onRelease.Array.data[0].mMethodName
+      value: Right2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c88efac5d286934a96b7a38c1598476, type: 2}

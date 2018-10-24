@@ -203,7 +203,7 @@ public class Test : MonoBehaviour {
             if (jumpping == true)
             {
                 yVelocity = jumpSpeed;
-                Chiackmove.Play("JUMP00B");
+                //Chiackmove.Play("JUMP00B");
                 jumpping =false;
                 chirk1.GetComponent<Animator>().SetBool("Jump", true);
                 chirk2.GetComponent<Animator>().SetBool("Jump", true);

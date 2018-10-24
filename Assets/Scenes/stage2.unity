@@ -3978,13 +3978,17 @@ MonoBehaviour:
     mMethodName: Left
     mParameters: []
     oneShot: 0
-  onHoverOut:
-  - mTarget: {fileID: 0}
+  onHoverOut: []
+  onPress:
+  - mTarget: {fileID: 1667691736}
+    mMethodName: Left
+    mParameters: []
+    oneShot: 0
+  onRelease:
+  - mTarget: {fileID: 1667691736}
     mMethodName: Left2
     mParameters: []
     oneShot: 0
-  onPress: []
-  onRelease: []
   onSelect: []
   onDeselect: []
   onClick: []
@@ -5101,7 +5105,7 @@ MonoBehaviour:
   disabledSprite2D: {fileID: 0}
   pixelSnap: 0
   onClick:
-  - mTarget: {fileID: 0}
+  - mTarget: {fileID: 1667691736}
     mMethodName: jump
     mParameters: []
     oneShot: 0
@@ -6466,18 +6470,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e862f287df53bb64db191162f851a296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onHoverOver:
-  - mTarget: {fileID: 0}
+  onHoverOver: []
+  onHoverOut: []
+  onPress:
+  - mTarget: {fileID: 1667691736}
     mMethodName: Right
     mParameters: []
     oneShot: 0
-  onHoverOut:
-  - mTarget: {fileID: 0}
+  onRelease:
+  - mTarget: {fileID: 1667691736}
     mMethodName: Right2
     mParameters: []
     oneShot: 0
-  onPress: []
-  onRelease: []
   onSelect: []
   onDeselect: []
   onClick: []
@@ -8454,6 +8458,12 @@ Transform:
   m_Father: {fileID: 605434070}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1667691736 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114999554139192258, guid: 0f192a0f16c0ee8428eeebdd656e9219,
+    type: 2}
+  m_PrefabInternal: {fileID: 653401613}
+  m_Script: {fileID: 11500000, guid: b0a6646e38680d74e96c487443cb630c, type: 3}
 --- !u!1001 &1691174344
 Prefab:
   m_ObjectHideFlags: 0
