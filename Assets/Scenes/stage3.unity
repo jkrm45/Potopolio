@@ -443,7 +443,8 @@ Prefab:
       propertyPath: onRelease.Array.data[0].mMethodName
       value: Right2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114913476316852120, guid: 7c88efac5d286934a96b7a38c1598476, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 7c88efac5d286934a96b7a38c1598476, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &168367793 stripped
@@ -486,6 +487,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4803803569817860, guid: 7c88efac5d286934a96b7a38c1598476,
     type: 2}
   m_PrefabInternal: {fileID: 168367792}
+--- !u!1 &168367801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1191993147753472, guid: 7c88efac5d286934a96b7a38c1598476,
+    type: 2}
+  m_PrefabInternal: {fileID: 168367792}
+--- !u!114 &168367802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 168367801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e862f287df53bb64db191162f851a296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHoverOver: []
+  onHoverOut: []
+  onPress: []
+  onRelease: []
+  onSelect: []
+  onDeselect: []
+  onClick:
+  - mTarget: {fileID: 126799749}
+    mMethodName: jump
+    mParameters: []
+    oneShot: 0
+  onDoubleClick: []
+  onDragStart: []
+  onDragEnd: []
+  onDragOver: []
+  onDragOut: []
+  onDrag: []
 --- !u!1 &197372761
 GameObject:
   m_ObjectHideFlags: 0
