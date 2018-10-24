@@ -10,6 +10,7 @@ public class IngameBTM : MonoBehaviour {
     public GameObject Enemystage;
     public int StageNum;
     public int StageLvup = 0;
+    public GameObject stage;
 
     // Use this for initialization
     void Start () {
@@ -48,12 +49,12 @@ public class IngameBTM : MonoBehaviour {
             Enemystage.GetComponent<Land2>().enabled = true;
             Enemystage.GetComponent<Land>().enabled = false;
         }
-        if (PlayerPrefs.GetInt("Stage") == 4)
+        if (PlayerPrefs.GetInt("Stage") == 3)
         {
             Enemystage.GetComponent<Land>().enabled = true;
             Enemystage.GetComponent<Land2>().enabled = false;
         }
-        if (PlayerPrefs.GetInt("Stage") > 5)
+        if (PlayerPrefs.GetInt("Stage") == 4)
         {
             Application.LoadLevel(1);
         }
@@ -72,5 +73,10 @@ public class IngameBTM : MonoBehaviour {
     {
         Time.timeScale = 1;
         Application.LoadLevel(1);
+    }
+    public void Play2()
+    {
+        Time.timeScale = 1;
+        stage.transform.localPosition = new Vector3(470, 146, 0);
     }
 }

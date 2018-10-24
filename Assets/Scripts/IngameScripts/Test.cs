@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Test : MonoBehaviour {
     public float moveSpeed = 7f;
-    public float jumpSpeed = 9f;
+    public float jumpSpeed = 14f;
     public float gravity = -12f;
     float yVelocity = 0.0f;
     public bool icesteped;
@@ -49,6 +49,7 @@ public class Test : MonoBehaviour {
         bestup.GetComponent<UILabel>().text = "Best : " + (int)Best;
         Savegold = PlayerPrefs.GetInt("Gold");
         gold.GetComponent<UILabel>().text = "" + Savegold;
+        Time.timeScale = 0;
        
       
         if (PlayerPrefs.GetInt("chari1") == 1)
