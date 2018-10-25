@@ -51,7 +51,8 @@ public class Test : MonoBehaviour {
         gold.GetComponent<UILabel>().text = "" + Savegold;
         Time.timeScale = 0;
        
-      
+
+
         if (PlayerPrefs.GetInt("chari1") == 1)
         {
             chirk1.SetActive(true);
@@ -97,7 +98,7 @@ public class Test : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-       
+        
         Score += Time.deltaTime;
         if (Score > Best)
         {

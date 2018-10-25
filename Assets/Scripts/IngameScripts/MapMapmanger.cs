@@ -64,11 +64,11 @@ public class MapMapmanger : MonoBehaviour {
         {
             ranstage = 1;
         }
-        if (ranstage >= 89 && ranstage < 92)
+        if (ranstage >= 89 && ranstage < 91)
         {
             ranstage = 2;
         }
-        if (ranstage >= 92 && ranstage < 97)
+        if (ranstage >= 91 && ranstage < 97)
         {
             ranstage = 3;
         }

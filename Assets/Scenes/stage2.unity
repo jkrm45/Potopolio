@@ -988,6 +988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 214137170}
   - component: {fileID: 214137169}
+  - component: {fileID: 214137171}
   m_Layer: 0
   m_Name: Stage2
   m_TagString: Untagged
@@ -1103,6 +1104,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &214137171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214137168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2e25a36edc11643bfa75b6c320464b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &238501375
 Prefab:
   m_ObjectHideFlags: 0
@@ -3052,7 +3064,7 @@ MonoBehaviour:
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 43e8f932a6af9d14d90ab7b58773fd96, type: 3}
   mFont: {fileID: 0}
-  mText: 'STAG : 2'
+  mText: 'STAGE : 2'
   mFontSize: 50
   mFontStyle: 1
   mAlignment: 0

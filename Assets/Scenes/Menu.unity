@@ -206,6 +206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 20708878}
   - component: {fileID: 20708877}
+  - component: {fileID: 20708879}
   m_Layer: 8
   m_Name: bg
   m_TagString: Untagged
@@ -255,7 +256,7 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
-  mFlip: 0
+  mFlip: 2
   mApplyGradient: 0
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
   mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
@@ -280,6 +281,28 @@ Transform:
   m_Father: {fileID: 1533861157}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &20708879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20708876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c20815eb3063c24290a61b7020a1836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thumb: {fileID: 793205293}
+  mBG: {fileID: 20708877}
+  mFG: {fileID: 1899265529}
+  mValue: 1
+  mFill: 3
+  numberOfSteps: 0
+  onChange: []
+  foreground: {fileID: 0}
+  rawValue: 1
+  direction: 2
+  mInverted: 0
 --- !u!1 &25093979
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,8 +3787,8 @@ Transform:
   m_Children:
   - {fileID: 1041401311}
   - {fileID: 1722253257}
-  - {fileID: 2144019279}
   - {fileID: 1533861157}
+  - {fileID: 2144019279}
   - {fileID: 1594220299}
   - {fileID: 885820794}
   - {fileID: 1034965418}
@@ -5013,7 +5036,6 @@ GameObject:
   - component: {fileID: 793205293}
   - component: {fileID: 793205296}
   - component: {fileID: 793205295}
-  - component: {fileID: 793205294}
   m_Layer: 8
   m_Name: Tumb
   m_TagString: Untagged
@@ -5028,34 +5050,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 793205292}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 144.00006, y: 1, z: 0}
+  m_LocalPosition: {x: 144, y: 1, z: 0}
   m_LocalScale: {x: 1.0008007, y: 1.0008007, z: 1.0008001}
   m_Children: []
   m_Father: {fileID: 1533861157}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &793205294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 793205292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c20815eb3063c24290a61b7020a1836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thumb: {fileID: 793205293}
-  mBG: {fileID: 20708877}
-  mFG: {fileID: 1899265529}
-  mValue: 1
-  mFill: 3
-  numberOfSteps: 0
-  onChange: []
-  foreground: {fileID: 0}
-  rawValue: 1
-  direction: 2
-  mInverted: 0
 --- !u!65 &793205295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5539,6 +5539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872861260}
   - component: {fileID: 872861259}
+  - component: {fileID: 872861261}
   m_Layer: 0
   m_Name: Main Sound
   m_TagString: Untagged
@@ -5654,6 +5655,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &872861261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 872861258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08081035d182ce541bdb9f1aa4925188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &885820793
 GameObject:
   m_ObjectHideFlags: 0
@@ -5711,7 +5723,7 @@ MonoBehaviour:
   pixelSnap: 0
   onClick:
   - mTarget: {fileID: 1418070475}
-    mMethodName: offOption
+    mMethodName: cancleoption
     mParameters: []
     oneShot: 0
 --- !u!65 &885820796
@@ -6948,6 +6960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1123238859}
   - component: {fileID: 1123238858}
+  - component: {fileID: 1123238860}
   m_Layer: 8
   m_Name: bg
   m_TagString: Untagged
@@ -6997,7 +7010,7 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
-  mFlip: 0
+  mFlip: 2
   mApplyGradient: 0
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
   mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
@@ -7021,6 +7034,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2144019279}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1123238860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1123238857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c20815eb3063c24290a61b7020a1836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thumb: {fileID: 1324313184}
+  mBG: {fileID: 1123238858}
+  mFG: {fileID: 484840904}
+  mValue: 1
+  mFill: 3
+  numberOfSteps: 0
+  onChange: []
+  foreground: {fileID: 0}
+  rawValue: 1
+  direction: 2
+  mInverted: 0
+--- !u!1 &1123457749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123457752}
+  - component: {fileID: 1123457751}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1123457751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1123457749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b034c1b9991fcb54695f853e4b92a05c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1123457752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1123457749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.7583334, y: -0.046666667, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1127931477
 GameObject:
@@ -7911,7 +7986,6 @@ GameObject:
   - component: {fileID: 1324313184}
   - component: {fileID: 1324313187}
   - component: {fileID: 1324313186}
-  - component: {fileID: 1324313185}
   m_Layer: 8
   m_Name: Tumb
   m_TagString: Untagged
@@ -7932,28 +8006,6 @@ Transform:
   m_Father: {fileID: 2144019279}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1324313185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1324313183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c20815eb3063c24290a61b7020a1836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thumb: {fileID: 1324313184}
-  mBG: {fileID: 1123238858}
-  mFG: {fileID: 484840904}
-  mValue: 1
-  mFill: 3
-  numberOfSteps: 0
-  onChange: []
-  foreground: {fileID: 0}
-  rawValue: 1
-  direction: 2
-  mInverted: 0
 --- !u!65 &1324313186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8137,6 +8189,8 @@ MonoBehaviour:
   shopX1: {fileID: 634803635}
   shopX2: {fileID: 1270834746}
   shopX3: {fileID: 1662200873}
+  menusound: {fileID: 20708876}
+  ingamesound: {fileID: 1123238857}
 --- !u!4 &1418070476
 Transform:
   m_ObjectHideFlags: 0
@@ -9056,7 +9110,7 @@ Transform:
   - {fileID: 1899265530}
   - {fileID: 793205293}
   m_Father: {fileID: 417665026}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1533861158
 MonoBehaviour:
@@ -9335,7 +9389,7 @@ MonoBehaviour:
   pixelSnap: 0
   onClick:
   - mTarget: {fileID: 1418070475}
-    mMethodName: offOption
+    mMethodName: Okoption
     mParameters: []
     oneShot: 0
 --- !u!65 &1594220301
@@ -11188,7 +11242,7 @@ Transform:
   - {fileID: 484840905}
   - {fileID: 1324313184}
   m_Father: {fileID: 417665026}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2144019280
 MonoBehaviour:

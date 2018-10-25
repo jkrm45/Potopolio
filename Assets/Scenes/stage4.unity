@@ -700,6 +700,10 @@ Prefab:
       propertyPath: bestup
       value: 
       objectReference: {fileID: 2059118254}
+    - target: {fileID: 1261206698023618, guid: 0f192a0f16c0ee8428eeebdd656e9219, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f192a0f16c0ee8428eeebdd656e9219, type: 2}
   m_IsPrefabAsset: 0
@@ -779,7 +783,7 @@ MonoBehaviour:
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 43e8f932a6af9d14d90ab7b58773fd96, type: 3}
   mFont: {fileID: 0}
-  mText: 'STAG : 1'
+  mText: 'STAGE : 1'
   mFontSize: 50
   mFontStyle: 1
   mAlignment: 0
@@ -885,6 +889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1533476390}
   - component: {fileID: 1533476389}
+  - component: {fileID: 1533476391}
   m_Layer: 0
   m_Name: Stage 4
   m_TagString: Untagged
@@ -1000,6 +1005,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1533476391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533476388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2e25a36edc11643bfa75b6c320464b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1644335460 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4803803569817860, guid: 7c88efac5d286934a96b7a38c1598476,

@@ -5769,6 +5769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1246249133}
   - component: {fileID: 1246249132}
+  - component: {fileID: 1246249134}
   m_Layer: 0
   m_Name: stag1 bgm
   m_TagString: Untagged
@@ -5884,6 +5885,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1246249134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246249131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2e25a36edc11643bfa75b6c320464b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1256255929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 1baddf228abb5a142935ca7d6834854e,
@@ -7248,7 +7260,7 @@ MonoBehaviour:
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 43e8f932a6af9d14d90ab7b58773fd96, type: 3}
   mFont: {fileID: 0}
-  mText: 'STAG : 4'
+  mText: 'STAGE : 4'
   mFontSize: 50
   mFontStyle: 1
   mAlignment: 0

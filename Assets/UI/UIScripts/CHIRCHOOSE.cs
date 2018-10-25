@@ -101,7 +101,7 @@ public class CHIRCHOOSE : MonoBehaviour {
         PlayerPrefs.SetInt("chari4", 1);
         PlayerPrefs.DeleteKey("chari2");
         PlayerPrefs.DeleteKey("chari1");
-        PlayerPrefs.DeleteKey("chari4");
+        PlayerPrefs.DeleteKey("chari3");
         PlayerPrefs.DeleteKey("chari5");
         CHAIR1.SetActive(false);
         CHAIR2.SetActive(false);
