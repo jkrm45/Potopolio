@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Musicsound : MonoBehaviour {
-    
+public class print : MonoBehaviour {
+
 	// Use this for initialization
 	void Start () {
-	
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        gameObject.GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("sound1");
+		
 	}
+    public void printed()
+    {
+        print("111");
+    }
 }

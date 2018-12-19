@@ -30,15 +30,16 @@ public class BtnManger : MonoBehaviour {
         PlayerPrefs.DeleteKey("Stage");
         menusound.GetComponent<UISlider>().value = 1;
         ingamesound.GetComponent<UISlider>().value = 1;
-        PlayerPrefs.SetFloat("sound1", menusound.GetComponent<UISlider>().value);
-        PlayerPrefs.SetFloat("sound2", ingamesound.GetComponent<UISlider>().value);
+        //PlayerPrefs.SetFloat("sound1", menusound.GetComponent<UISlider>().value);
+        //PlayerPrefs.SetFloat("sound2", ingamesound.GetComponent<UISlider>().value);
 
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
-       
+        //menusound.GetComponent<UISlider>().value = PlayerPrefs.GetFloat("sound1");
+        //ingamesound.GetComponent<UISlider>().value = PlayerPrefs.GetFloat("sound2");
         if (Input.GetKey(KeyCode.Space))
         {
             PlayerPrefs.DeleteAll();
